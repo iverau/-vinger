@@ -1,10 +1,11 @@
 #include <iostream>
 #include "util.h"
-
+#include "list.h"
 
 
 int main(){
   //testVec();
-  replaceTest();
+  //replaceTest();
+  testThisClass();
   return 0;
 }
