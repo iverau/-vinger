@@ -1,4 +1,4 @@
-OBJ = main.o util.o list.o LinkedList.o
+OBJ = main.o util.o list.o LinkedList.o temp.o TemplateLinkedList.o
 program = prog
 
 

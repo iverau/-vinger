@@ -4,7 +4,7 @@
 #include <ostream>
 #include <string>
 
-// test code 
+// test code
 void testLinkedList();
 
 
@@ -37,6 +37,8 @@ public:
 
     friend class LinkedList;
 };
+std::ostream& operator<<(std::ostream& os, const Node& node);
+
 
 class LinkedList {
 private:
@@ -84,7 +86,6 @@ public:
     // write a string representation of the list to the ostream
     friend std::ostream & operator<<(std::ostream & os, const LinkedList& list);
 };
+
+std::ostream & operator<<(std::ostream & os, const LinkedList& list);
 }// namespace LinkedList
-
-
-
